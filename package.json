@@ -1,6 +1,6 @@
 {
   "name": "vibe-is-positive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny meme library that uses OpenAI to check if a number is positive, negative, or zero. Supports both number and bigint. Because why use math when you can ask AI? 🤖➕",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -10,6 +10,9 @@
     "import": "./dist/index.js",
     "require": "./dist/index.cjs"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup"
   },
